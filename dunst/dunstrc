@@ -280,7 +280,7 @@
     # corners.
     # The radius will be automatically lowered if it exceeds half of the
     # notification height to avoid clipping text and/or icons.
-    corner_radius = 0
+    corner_radius = 10
 
     # Define which corners to round when drawing the window. If the corner radius
     # is set to 0 this option will be ignored.
@@ -367,8 +367,9 @@
     default_icon = dialog-information
 
 [urgency_normal]
-    background = "#285577"
+    background = "#c44a41"
     foreground = "#ffffff"
+    frame_color = "#ff948c"
     timeout = 10
     override_pause_level = 30
     # Icon for notifications with normal urgency
