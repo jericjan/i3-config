@@ -20,3 +20,7 @@ Just a few changes to personalize i3 for me.
 - Super+Shift+Q to quit i3 and removed the exit prompt
 - Super+Tab to swap to last focused workspace
 - Screenshot utils (PrtSc to copy to clipboard, Shift+PrtSc to save to `~/Pictures/`
+
+
+## Credits
+Wallpaper is by 原之 (@harano_c) on X. 
