@@ -216,3 +216,8 @@ font pango:Monofur Nerd Font Mono 10
 }
 # Switch to the previously focused workspace
 bindsym $mod+Tab workspace back_and_forth
+# Drag-and-select region -> Copy to Clipboard via xsel
+bindsym --release Print exec --no-startup-id sh -c "maim -s | xclip -selection clipboard -t image/png"
+
+# Drag-and-select region -> Save directly to Pictures folder
+bindsym --release Shift+Print exec --no-startup-id maim -s ~/Pictures/screenshot_$(date +%Y%m%d_%H%M%S).png
