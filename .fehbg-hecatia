@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-scale "/home/kur0/Pictures/Wallpapers/hecatia-HD.png"
