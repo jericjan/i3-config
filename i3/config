@@ -202,6 +202,7 @@ client.background       #FFFFFF
 # finds out, if available)
 bar {
 status_command i3status
+position top
 #font pango:MesloLGL Nerd Font Mono 9
 font pango:Monofur Nerd Font Mono 10
   colors {
