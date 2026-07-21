@@ -2,13 +2,16 @@
 
 Just a few changes to personalize i3 for me.
 
-Pre-requirements:
+## Pre-requirements:
 - Font: Monofur Nerd Font
-- Copy `.fehbg-hecatia` to your home folder (`~/`) and edit it to point to the correct wallpaper file location. Alternatively, just edit i3's config to use `~/.fehbg` and let feh generate its own file. 
 - `maim` for screenshots
 - `xclip` for copying screenshots to clipboard
 
-Changes:
+## Installation
+- Copy `i3`, `i3status`, and `picom` folders to `~/.config`
+- Copy `.fehbg-hecatia` to your home folder (`~/`) and edit it to point to the correct wallpaper file location. Alternatively, just edit i3's config to use `~/.fehbg` and let feh generate its own file. 
+
+## Changes:
 - Caps Lock presses ESC
 - Runs `feh` for the wallpaper
 - Colors changed that matches included wallpaper
