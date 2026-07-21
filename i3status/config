@@ -8,10 +8,10 @@
 
 general {
         colors = true
-        interval = 5
+        interval = 1
 }
 
-order += "ipv6"
+#order += "ipv6"
 order += "wireless _first_"
 order += "ethernet _first_"
 order += "battery all"
@@ -35,19 +35,20 @@ battery all {
 }
 
 disk "/" {
-        format = "%avail"
+        format = "%avail"
 }
 
 load {
-        format = "%1min"
+        format = "%1min"
 }
 
 memory {
-        format = "%used | %available"
+        format = " %used used | %available avail"
         threshold_degraded = "1G"
         format_degraded = "MEMORY < %available"
 }
 
 tztime local {
- format = "%Y-%m-%d %I:%M:%S %p"
+ #format = "%Y-%m-%d %I:%M:%S %p"
+ format = "%b %d, %Y %I:%M:%S %p"
 }

@@ -200,7 +200,8 @@ client.background       #FFFFFF
 # finds out, if available)
 bar {
 status_command i3status
-font pango:MesloLGS Nerd Font Mono 9
+#font pango:MesloLGL Nerd Font Mono 9
+font pango:Monofur Nerd Font Mono 10
   colors {
     background #140002
     statusline #FFFFFF
