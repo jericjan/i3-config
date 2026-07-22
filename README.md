@@ -11,6 +11,7 @@ Just a few changes to personalize i3 for me.
 ## Installation
 - Copy `i3`, `i3status`, and `picom` folders to `~/.config`
 - Copy `.fehbg-hecatia` to your home folder (`~/`) and edit it to point to the correct wallpaper file location. Alternatively, just edit i3's config to use `~/.fehbg` and let feh generate its own file. 
+- Copy `.i3lock-bg` to home as well. Again, change the file path to the wallpaper file.
 
 ## Changes:
 - Caps Lock presses ESC

@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+INPUT_IMG="/home/kur0/Pictures/Wallpapers/hecatia-HD.png"
+CACHE_IMG="/tmp/i3lock-bg.png"
+
+if [ ! -f "$CACHE_IMG" ]; then
+    # Grab primary monitor resolution
+    RES=$(xrandr --query | grep ' primary' | grep -oP '\d+x\d+')
+
+    if [ -z "$RES" ]; then
+        RES=$(xdpyinfo | awk '/dimensions:/ {print $2}')
+    fi
+
+    magick "$INPUT_IMG" -resize "${RES}^" -gravity center -extent "$RES" "$CACHE_IMG"
+fi
+
+i3lock -i "$CACHE_IMG"
