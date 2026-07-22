@@ -6,7 +6,7 @@ Just a few changes to personalize i3 for me.
 - Font: Monofur Nerd Font
 - `maim` for screenshots
 - `xclip` for copying screenshots to clipboard
-- `i3-wm`, `i3status`, `picom`, and `dunst` for all the UI stuff
+- `i3-wm`, `i3status`, `picom`, `dunst`, `lxpolkit` for all the UI stuff
 
 ## Installation
 - Copy `i3`, `i3status`, and `picom` folders to `~/.config`
